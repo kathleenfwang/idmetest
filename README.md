@@ -7,6 +7,7 @@ Once the user authenticates using their email and password, the site is granted 
 If the user’s verification returns as true, the app will then display the user’s first name and their service group. 
 
 ## Sample Result: 
+`GET: https://api.id.me/api/public/v3/attributes.json?access_token={ACCESS_TOKEN} `
 ```
 attributes: Array(5)
 0: {handle: "email", name: "Email", value: "partner+se-test-mil-200603-f4b4b8@id.me"}
